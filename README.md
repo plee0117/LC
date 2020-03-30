@@ -1,2 +1,2 @@
 # LC
-leetcode python
+leetcode in python
