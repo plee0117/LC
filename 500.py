@@ -11,4 +11,4 @@ class Solution:
             else:
                 row = r3
             return list(x) == list(filter(lambda ltr: ltr in row, x))
-        return list(filter(lambda word: isin(word),words))
+        return list(filter(lambda word: isin(word), words))

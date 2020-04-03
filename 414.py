@@ -7,7 +7,7 @@ class Solution:
             
             while i < len(maxes):
                 if num > maxes[i]:
-                    maxes.insert(i,num)
+                    maxes.insert(i, num)
                     return maxes[:3]
                 else:
                     i += 1
@@ -16,7 +16,7 @@ class Solution:
             return maxes[:3]
         maxes = []
         for num in nums:
-            maxes = compare(maxes,num)
+            maxes = compare(maxes, num)
             print(maxes)
         if len(maxes) == 3:
             return maxes[-1]
