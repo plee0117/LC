@@ -8,11 +8,11 @@ class Solution:
                 qs.append(0)
             else:
                 c = 0
-                while num//d > 0:
+                while num // d > 0:
                     num -= d
                     c += 1
                 qs.append(c)
         roman = ''
         for idx, q in enumerate(qs):
-            roman += symbols[idx]*q
+            roman += symbols[idx] * q
         return roman                

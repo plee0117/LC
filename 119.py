@@ -7,5 +7,5 @@ class Solution:
             return f
         l = []
         for idx in range(rowIndex + 1):
-            l.append(fact(rowIndex)//fact(idx)//fact(rowIndex-idx))
+            l.append(fact(rowIndex) // fact(idx) // fact(rowIndex - idx))
         return l
